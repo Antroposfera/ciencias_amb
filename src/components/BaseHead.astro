@@ -2,7 +2,8 @@
 import { siteConfig } from '@/site-config'
 import '../styles/global.css'
 import { ViewTransitions } from 'astro:transitions'
-
+import { join } from 'path'
+import { AstroFont } from 'astro-font'
 export interface Props {
 	title: string
 	description?: string
@@ -18,9 +19,6 @@ const socialImageURL = new URL(ogImage ? ogImage : '/open-graph.png', Astro.url)
 const titleSeparator = '•'
 
 const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`
-
-import { join } from 'path'
-import { AstroFont } from 'astro-font'
 ---
 
 <!-- Global Metadata -->
