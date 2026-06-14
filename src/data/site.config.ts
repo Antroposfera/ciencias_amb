@@ -10,9 +10,9 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-	site: 'https://AlexanderRodriguez96.github.io/blog-camilo',
-	author: 'Azrael',
-	title: 'Astro Theme OpenBlog', // Site title.
+	site: 'https://Antroposfera.github.io/blog-camilo',
+	author: 'Camilo Silva',
+	title: 'Antroposfera', // Site title.
 	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', // Description to display in the meta tags
 	lang: 'en-GB',
 	ogLocale: 'en_GB',
